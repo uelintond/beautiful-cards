@@ -90,3 +90,16 @@ body {
 	background-color: #fff;
 	color: rgba(87, 2, 246, 0.95);
 }
+
+  /* media queries */
+  @media (min-width: 360px) {
+	.container {
+		flex-direction: column;
+		align-items: center;
+		
+	}
+
+	.container-blocks {
+		margin: 14px 0;
+	}
+  }
